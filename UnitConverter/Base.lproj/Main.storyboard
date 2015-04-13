@@ -21,6 +21,9 @@
                                 <rect key="frame" x="52" y="60" width="216" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" keyboardType="numbersAndPunctuation"/>
+                                <connections>
+                                    <action selector="textFieldHideOnReturn:" destination="vXZ-lx-hvc" eventType="editingDidEndOnExit" id="QDu-73-9TA"/>
+                                </connections>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5ZY-RO-dP8">
                                 <rect key="frame" x="133" y="98" width="55" height="30"/>

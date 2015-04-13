@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>24E7E16F-458C-4345-99F3-E322B3A3E8B5</string>
 	<key>IDESourceControlProjectName</key>
-	<string>project</string>
+	<string>UnitConverter</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>B551F9E062FAB67C1A1AA4E30A020965C5E8C786</key>
 		<string>github.com:danieljfgoncalves/UnitConverter.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>UnitConverter.xcodeproj/project.xcworkspace</string>
+	<string>UnitConverter.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>B551F9E062FAB67C1A1AA4E30A020965C5E8C786</key>

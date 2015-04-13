@@ -32,4 +32,20 @@
     
     _resultLabel.text = resultString;
 }
+
+// Added remove keyboard functionality
+-(IBAction)textFieldHideOnReturn:(id)sender {
+
+    [sender resignFirstResponder];
+    
+}
+
+-(void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {
+    
+    UITouch *touch = [[event allTouches] anyObject];
+    if ([_tempText isFirstResponder] && [touch view] != _tempText) {
+        [_tempText resignFirstResponder];
+    }
+}
+
 @end

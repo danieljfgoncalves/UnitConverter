@@ -16,5 +16,9 @@
 
 - (IBAction)convertTemp:(id)sender;
 
+
+// Added remove keyboard functionality
+-(IBAction)textFieldHideOnReturn:(id)sender;
+
 @end
 
