@@ -27,6 +27,9 @@
                                 <state key="normal" title="Convert">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="convertTemp:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="x8r-W5-j3k"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vby-60-qI6">
                                 <rect key="frame" x="52" y="136" width="216" height="21"/>
@@ -49,6 +52,10 @@
                             <constraint firstItem="5ZY-RO-dP8" firstAttribute="top" secondItem="ZgZ-1U-k4U" secondAttribute="bottom" constant="8" id="ymd-vK-PTX"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="resultLabel" destination="vby-60-qI6" id="YCy-2G-1G1"/>
+                        <outlet property="tempText" destination="ZgZ-1U-k4U" id="ofr-3r-FIU"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>

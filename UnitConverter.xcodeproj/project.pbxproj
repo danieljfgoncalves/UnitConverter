@@ -176,6 +176,7 @@
 		E4C80A361ADC465C00C7DAB1 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = UnitConverter;
 				LastUpgradeCheck = 0630;
 				ORGANIZATIONNAME = DG;
 				TargetAttributes = {
