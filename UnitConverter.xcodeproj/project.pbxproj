@@ -14,6 +14,7 @@
 		E4C80A4F1ADC465C00C7DAB1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4C80A4E1ADC465C00C7DAB1 /* Images.xcassets */; };
 		E4C80A521ADC465C00C7DAB1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E4C80A501ADC465C00C7DAB1 /* LaunchScreen.xib */; };
 		E4C80A5E1ADC465C00C7DAB1 /* UnitConverterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E4C80A5D1ADC465C00C7DAB1 /* UnitConverterTests.m */; };
+		E4C80A6A1ADC471500C7DAB1 /* UnitConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = E4C80A691ADC471500C7DAB1 /* UnitConverter.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		E4C80A571ADC465C00C7DAB1 /* UnitConverterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnitConverterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4C80A5C1ADC465C00C7DAB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E4C80A5D1ADC465C00C7DAB1 /* UnitConverterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UnitConverterTests.m; sourceTree = "<group>"; };
+		E4C80A681ADC471500C7DAB1 /* UnitConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UnitConverter.h; sourceTree = "<group>"; };
+		E4C80A691ADC471500C7DAB1 /* UnitConverter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UnitConverter.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +66,7 @@
 		E4C80A351ADC465C00C7DAB1 = {
 			isa = PBXGroup;
 			children = (
+				E4C80A671ADC46F900C7DAB1 /* Model */,
 				E4C80A401ADC465C00C7DAB1 /* UnitConverter */,
 				E4C80A5A1ADC465C00C7DAB1 /* UnitConverterTests */,
 				E4C80A3F1ADC465C00C7DAB1 /* Products */,
@@ -117,6 +121,15 @@
 				E4C80A5C1ADC465C00C7DAB1 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E4C80A671ADC46F900C7DAB1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E4C80A681ADC471500C7DAB1 /* UnitConverter.h */,
+				E4C80A691ADC471500C7DAB1 /* UnitConverter.m */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -221,6 +234,7 @@
 			files = (
 				E4C80A4A1ADC465C00C7DAB1 /* ViewController.m in Sources */,
 				E4C80A471ADC465C00C7DAB1 /* AppDelegate.m in Sources */,
+				E4C80A6A1ADC471500C7DAB1 /* UnitConverter.m in Sources */,
 				E4C80A441ADC465C00C7DAB1 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
